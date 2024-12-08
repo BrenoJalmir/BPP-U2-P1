@@ -1,6 +1,6 @@
 import logging as logger
 
-logger.basicConfig(filename='log.log', level=logger.DEBUG, encoding='utf-8', filemode='w', format='%(asctime)s - %(levelname)s || %(message)s')
+logger.basicConfig(filename='log.log', level=logger.DEBUG, encoding='utf-8', format='%(asctime)s - %(levelname)s || %(message)s')
 
 class Produto:
   def __init__(self, id:int, nome:str, preco:float):
