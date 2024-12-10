@@ -173,7 +173,7 @@ def main():
           print(f'Total: {total:.2f}; Desconto: {discount:.2f}')
         elif action == '3':
           total, discount = order.calcular_total()              
-          print(f'Cliente: {order["customer"]}\nTotal: {total:.2f}; Desconto: {discount:.2f}')
+          print(f'Cliente: {order.cliente}\nTotal: {total:.2f}; Desconto: {discount:.2f}')
           break
         else:
           print('Opção inválida.')
